@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading1{
+    font-family: var(--font-ibarra);
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: -0.45px;
+    line-height: 50px;
+    color: #33323D;
+}
+
+.heading2{
+    font-family: var(--font-ibarra);
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -0.36px;
+    line-height: 42px;
+    color: #33323D;
+}
+
+.heading3{
+    font-family: var(--font-ibarra);
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.29px;
+    color: #33323D;
+}
+
+.body1{
+    font-family: var(--font-public-sans);
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #33323D;
+    opacity: 0.80;
+}
+
+a{
+    font-family: var(--font-public-sans);
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #33323D;
+}
+
+.aboutBtn{
+    font-family: var(--font-public-sans);
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.label{
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 30px;
+    display: block;
+    color: #33323D;
+}
